@@ -17,6 +17,7 @@ html, body{
 	-moz-transition: opacity 1s;
 	-o-transition: opacity 1s;
 	transition: opacity 1s;
+	overflow: hidden;
 }
 .maindiv img {
 	/*-webkit-border-radius: 100%;
