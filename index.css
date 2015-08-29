@@ -39,7 +39,7 @@ html, body{
 	margin-top: 20px;
 }
 .spinner p a, .spinner p a:hover, .spinner p a:active, .spinner p a:focus, .spinner p a:visited{
-	color: white;
+	color: #383838;
 	text-decoration: underline;
 }
 .links{
