@@ -1,0 +1,274 @@
+body {
+  background: #CCCCCC; }
+  body header {
+    background: #2965BE;
+    padding: 10px 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 49px;
+    z-index: 11; }
+    body header div {
+      direction: rtl;
+      text-align: right; }
+      body header div .logo {
+        width: 32px;
+        margin-right: 10px; }
+      body header div a {
+        color: white;
+        text-decoration: none; }
+        body header div a span {
+          font-size: 18px;
+          margin-right: 4px; }
+      body header div a:hover {
+        color: white;
+        text-decoration: none; }
+  body .sidemenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background: #131313;
+    z-index: 11;
+    padding-top: 5px;
+    -webkit-transition: transform 0.8s;
+    -moz-transition: transform 0.8s;
+    -o-transition: transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+    body .sidemenu.in {
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0); }
+    body .sidemenu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: right;
+      direction: rtl; }
+      body .sidemenu ul li {
+        border-bottom: 1px solid #292929;
+        padding: 6px 15px;
+        color: white; }
+        body .sidemenu ul li a {
+          font-size: 13px;
+          color: white; }
+  body .mainBody {
+    background: white;
+    margin-top: 48px;
+    display: inline-block;
+    width: 100%; }
+    body .mainBody .searchBar {
+      padding: 10px 15px;
+      background: #2965BE;
+      text-align: right;
+      direction: rtl; }
+      body .mainBody .searchBar > div {
+        padding: 5px;
+        background: white;
+        border-radius: 3px; }
+        body .mainBody .searchBar > div span {
+          margin: 0 5px; }
+        body .mainBody .searchBar > div input[type=search] {
+          border: none;
+          outline: none; }
+    body .mainBody .categories {
+      display: inline-block;
+      width: 100%; }
+      body .mainBody .categories > div {
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #D1D1D1;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        text-align: right;
+        direction: rtl; }
+        body .mainBody .categories > div p {
+          margin-bottom: 2px;
+          margin-top: 2px;
+          font-weight: bold; }
+        body .mainBody .categories > div p + span {
+          color: #828282;
+          font-size: 12px; }
+        body .mainBody .categories > div .centerit {
+          margin-top: 11px;
+          font-size: 21px; }
+        body .mainBody .categories > div > div {
+          float: right; }
+    body .mainBody .spec div {
+      padding-right: 15px;
+      padding-left: 15px; }
+    body .mainBody .spec .cat-in p {
+      font-weight: 500;
+      color: #828282; }
+    body .mainBody .adsContainer {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 20px; }
+      body .mainBody .adsContainer h2 {
+        font-size: 20px;
+        margin-top: 8px;
+        text-align: right;
+        direction: rtl; }
+      body .mainBody .adsContainer .ad {
+        position: relative;
+        width: 80px;
+        height: 90px;
+        overflow: hidden;
+        border-radius: 5px; }
+        body .mainBody .adsContainer .ad img {
+          width: 100%;
+          height: 100%; }
+        body .mainBody .adsContainer .ad div {
+          position: absolute;
+          z-index: 1;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.93);
+          width: 100%;
+          text-align: center;
+          color: #E7E7E7;
+          padding: 2px 0;
+          font-weight: bold; }
+          body .mainBody .adsContainer .ad div p {
+            margin: 0; }
+    body .mainBody .offers .single-offer {
+      padding-left: 15px;
+      display: table;
+      width: 100%;
+      border-bottom: 1px solid #D1D1D1; }
+      body .mainBody .offers .single-offer img {
+        width: 100px;
+        height: 110px;
+        float: right; }
+      body .mainBody .offers .single-offer .offerinfo {
+        float: right;
+        padding-right: 10px;
+        text-align: right; }
+        body .mainBody .offers .single-offer .offerinfo .offername {
+          margin: 5px 0;
+          font-weight: bold; }
+        body .mainBody .offers .single-offer .offerinfo .offerprice {
+          margin: 16px 0 5px;
+          color: #FF9000; }
+        body .mainBody .offers .single-offer .offerinfo .offerplace {
+          margin-bottom: 0;
+          font-size: 12px; }
+        body .mainBody .offers .single-offer .offerinfo .offertime {
+          font-size: 11px;
+          color: #808080; }
+    body .mainBody .headInfo {
+      position: relative; }
+      body .mainBody .headInfo .pricetag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px 15px 0;
+        background: rgba(52, 52, 52, 0.21); }
+        body .mainBody .headInfo .pricetag p {
+          margin: 0 0 5px;
+          float: right;
+          width: 50%; }
+          body .mainBody .headInfo .pricetag p.name {
+            text-align: right; }
+          body .mainBody .headInfo .pricetag p.price {
+            text-align: left; }
+      body .mainBody .headInfo .itemImgs img {
+        height: 200px; }
+      body .mainBody .headInfo .itemImgs .owl-controls {
+        margin: 0; }
+        body .mainBody .headInfo .itemImgs .owl-controls .owl-dots {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%; }
+    body .mainBody .bodyInfo table {
+      width: 100%;
+      direction: rtl; }
+      body .mainBody .bodyInfo table thead th {
+        text-align: right;
+        padding: 4px 10px 2px;
+        font-size: 15px; }
+      body .mainBody .bodyInfo table tbody tr {
+        border-bottom: 1px solid #D1D1D1; }
+        body .mainBody .bodyInfo table tbody tr td:first-child {
+          text-align: right;
+          padding: 6px 10px; }
+        body .mainBody .bodyInfo table tbody tr td:last-child {
+          text-align: left;
+          padding: 6px 10px; }
+    body .mainBody .bodyInfo .moreinfo {
+      display: inline-block;
+      width: 100%;
+      text-align: right;
+      padding: 0 10px;
+      direction: rtl; }
+      body .mainBody .bodyInfo .moreinfo h2 {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 12px 0 6px; }
+      body .mainBody .bodyInfo .moreinfo .useractions {
+        margin-bottom: 15px;
+        display: inline-block; }
+        body .mainBody .bodyInfo .moreinfo .useractions .favorite {
+          float: right;
+          margin-left: 12px; }
+        body .mainBody .bodyInfo .moreinfo .useractions .share {
+          float: right; }
+    body .mainBody .bodyInfo .adsnav {
+      display: inline-block;
+      width: 100%;
+      border-top: 1px solid #D1D1D1;
+      padding-top: 5px; }
+      body .mainBody .bodyInfo .adsnav .next {
+        text-align: right;
+        float: right;
+        padding: 6px 10px; }
+      body .mainBody .bodyInfo .adsnav .prev {
+        text-align: left;
+        float: left;
+        padding: 6px 10px; }
+  body footer {
+    text-align: center;
+    padding: 10px; }
+    body footer p {
+      color: #686868; }
+
+.centerit {
+  text-align: center; }
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: black;
+  opacity: 0;
+  -webkit-transition: opacity 0.7s;
+  -moz-transition: opacity 0.7s;
+  -o-transition: opacity 0.7s;
+  transition: opacity 0.7s; }
+
+.backdrop.open {
+  opacity: 0.4; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=main.css.map */
