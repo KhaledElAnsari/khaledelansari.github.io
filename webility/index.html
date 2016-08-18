@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>Backgroundor</title>
+
+    <script type="text/javascript" src="./sh/shCore.js"></script>
+    <script type="text/javascript" src="./sh/shLegacy.js"></script>
+    <script type="text/javascript" src="./sh/shAutoloader.js"></script>
+    <script type="text/javascript" src="./sh/shBrushJScript.js"></script>
+    <link href="./sh/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="./sh/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  </head>
+  <body>
+    <a href="https://github.com/KhaledElAnsari/webility.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+
+    <header>
+      <h2>Webility.js</h2>
+      <p>The Front-End developers Utility Belt</p>
+    </header>
+
+    <p class="intro">
+      Webility.js is a lightweight, smooth, easy-to-use an zero-dependencies
+      library to ease the pain of some Front-End development issues.
+      <br/><br/>
+      Below you can see the availabe functionalities with some examples.
+    </p>
+
+    <h2 class="title">
+      <span>Webility APIs</span>
+    </h2>
+
+    <div class="intro">
+      You can check the list of availabe function at the moment at the
+      <a href="https://github.com/KhaledElAnsari/webility.js#apis-reference">
+        Github Repository</a>.
+    </div>
+
+    <h2 class="title">
+      <span>Example</span>
+    </h2>
+
+    <div class="intro" id="eg">
+      Here's a Fast Full example with all of the available functions at the moment,
+      check your browser console to see the results.
+
+      <pre class="brush: js">
+        webility.pageready(function() {
+          var str = "john doe";
+          var obj = {"khaled": 24, "max": 19, "nadia": 27};
+          var arr = [0,7,5,1,9];
+
+          console.log(webility.title(str));
+          console.log(webility.capitalize(str));
+          console.log(webility.quote(str));
+
+          var today = webility.today();
+          console.log(today);
+          console.log(webility.toUTC("2016-08-17T10:00"));
+          console.log(webility.toLocalTime("2016-08-17T10:00"));
+          console.log(webility.dayAfter(today, 4));
+          console.log(webility.getDays("2016-08-17", "2016-08-21"));
+
+          console.log(webility.sort(arr));
+          console.log(webility.objToArray(obj));
+          console.log(webility.isEmpty(obj));
+          console.log(webility.get(obj, "Mohammad", 50));
+
+          console.log(webility.browser());
+          console.log(webility.os());
+          console.log(webility.device());
+          console.log(webility.ismobile());
+          console.log(webility.uuid());
+
+          var elems = webility.select("#eg");
+          console.log(elems[0]);
+          console.log(elems.ID());
+          console.log(elems.addclass("anotherclass"));
+          console.log(elems.hasclass("someclass"));
+          console.log(elems.removeclass("anotherclass"));
+        });
+      </pre>
+    </div>
+
+    <p class="intro">
+      That's it, the function will be updated from time to time and your
+      <span>contribution</span> is always welcomed.
+    </p>
+
+    <footer>
+      <ul class="contacticons">
+  			<li><a href="https://twitter.com/KhaledElAnsari" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+  			<li><a href="https://jo.linkedin.com/in/khaled-al-ansari-3b1885a6" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+  			<li><a href="https://github.com/KhaledElAnsari" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
+        <li><a href="http://stackoverflow.com/users/4341572/khaled-al-ansari" target="_blank" title="Stackoverflow"><i class="fa fa-stack-overflow"></i></a></li>
+  			<li><a href="mailto:khaledelansari@gmail.com" title="Email"><i class="fa fa-envelope"></i></a></li>
+  		</ul>
+  		<p>Copyright &copy; All Rights Reserved &middot; Khaled Al-Ansari &middot;</p>
+    </footer>
+
+    <script src="./js/webility.js"></script>
+
+    <script type="text/javascript">
+      SyntaxHighlighter.all();
+      webility.pageready(function() {
+        var str = "john doe";
+        var obj = {"khaled": 24, "max": 19, "nadia": 27};
+        var arr = [0,7,5,1,9];
+
+        console.log(webility.title(str));
+        console.log(webility.capitalize(str));
+        console.log(webility.quote(str));
+
+        var today = webility.today();
+        console.log("\n");
+        console.log(today);
+        console.log(webility.toUTC("2016-08-17T10:00"));
+        console.log(webility.toLocalTime("2016-08-17T10:00"));
+        console.log(webility.dayAfter(today, 4));
+        console.log(webility.getDays("2016-08-17", "2016-08-21"));
+
+        console.log("\n");
+        console.log(webility.sort(arr));
+        console.log(webility.objToArray(obj));
+        console.log(webility.isEmpty(obj));
+        console.log(webility.get(obj, "Mohammad", 50));
+
+        console.log("\n");
+        console.log(webility.browser());
+        console.log(webility.os());
+        console.log(webility.device());
+        console.log(webility.ismobile());
+        console.log(webility.uuid());
+
+        var elems = webility.select("#eg");
+        console.log("\n");
+        console.log(elems[0]);
+        console.log(elems.ID());
+        console.log(elems.addclass("anotherclass"));
+        console.log(elems.hasclass("someclass"));
+        console.log(elems.removeclass("anotherclass"));
+      });
+    </script>
+  </body>
+</html>
