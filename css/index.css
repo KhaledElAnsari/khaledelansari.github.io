@@ -1,5 +1,4 @@
 html, body{
-    /*background-color: #1976d2;*/
     background: #56CCF2;
     background: -webkit-linear-gradient(left top, #56CCF2, #2F80ED);
     background: -o-linear-gradient(bottom right, #56CCF2, #2F80ED);
@@ -67,47 +66,6 @@ html, body{
     color: #151515;
 }
 
-/*.fa-spin {
-    -webkit-animation-duration: 4s;
-    -moz-animation-duration: 4s;
-    -o-animation-duration: 4s;
-    animation-duration: 4s;
-}
-.spinner {
-    color: white;
-    font-size: 200px;
-}
-.spinner ul {
-    list-style: none;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-.spinner p {
-    font-size: 18px;
-    margin-top: 20px;
-}
-.spinner p a, .spinner p a:hover, .spinner p a:active, .spinner p a:focus, .spinner p a:visited{
-    color: #383838;
-    text-decoration: underline;
-}
-.links{
-    display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-.links div{
-    display: inline-block;
-    margin: 0 20px;
-}
-.links div a{
-    font-size: 30px;
-    color: white;
-}
-.links div a:hover, .links div a:active, .links div a:visited, .links div a:focus{
-    text-decoration: none;
-}*/
-
 @media screen and (max-width: 778px) {
     .left-side {
         text-align: center;
@@ -116,22 +74,4 @@ html, body{
     .links {
         display: inline-block;
     }
-    /*.spinner{
-        font-size: 140px;
-    }
-    .spinner h1{
-        font-size: 26px;
-    }
-    .spinner h2{
-        font-size: 22px;
-    }
-    .spinner h3{
-        font-size: 18px;
-    }
-    .spinner p {
-        font-size: 15px;
-    }
-    .links div a {
-        font-size: 24px;
-    }*/
-}
+ }
