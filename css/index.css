@@ -6,12 +6,6 @@ html, body{
     background: linear-gradient(to bottom right, #56CCF2, #2F80ED);
     height: 100%;
 }
-::selection {
-    background-color: black;
-}
-::-moz-selection {
-    background-color: black;
-}
 .maindiv {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
