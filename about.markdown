@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello There!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Thank you for being here, my name is Khaled Al-Ansari and I work as a software engineer (yeah another one of those people online!).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I created this website as a personal ID to share some of the stuff I'm interested in and to introduce myself to those who need to. Currently the website is still simple and does not have much but I will enhance it the future inshallah.
 
+For now you can view [my resume](http://khaledelansari.com/online-cv/) or just read some of [my blogs](https://khaledelansari.blogspot.com/), please don't hesitate to reach out for anything and remember its for free so nothing to lose!
 
-[jekyll-organization]: https://github.com/jekyll
+That's it for now, till next time... salam.

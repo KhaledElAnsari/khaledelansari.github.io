@@ -3,3 +3,10 @@
 
 # OS Files
 .DS_Store
+
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
