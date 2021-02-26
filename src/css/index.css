@@ -1,0 +1,71 @@
+html, body{
+    background: #56CCF2;
+    background: -webkit-linear-gradient(left top, #56CCF2, #2F80ED);
+    background: -o-linear-gradient(bottom right, #56CCF2, #2F80ED);
+    background: -moz-linear-gradient(bottom right, #56CCF2, #2F80ED);
+    background: linear-gradient(to bottom right, #56CCF2, #2F80ED);
+    height: 100%;
+}
+.maindiv {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    overflow: hidden;
+    padding-top: 10%;
+    padding-bottom: 20px;
+}
+.card {
+    margin: 0 10%;
+    padding: 20px 5px;
+    background: rgba(249, 249, 249, 0.95);
+    box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 8px;
+}
+.left-side {
+    text-align: center;
+}
+.right-side {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.picture {
+    display: inline-block;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.picture img {
+    width: 100%;
+}
+
+.links {
+    padding-top: 10px;
+}
+.links > div {
+    float: left;
+    box-sizing: border-box;
+    padding-right: 10px;
+    font-size: 26px;
+}
+.links > div > a {
+    color: #151515;
+}
+.links > div > a:visited {
+    color: #151515;
+}
+
+@media screen and (max-width: 778px) {
+    .left-side {
+        text-align: center;
+    }
+
+    .links {
+        display: inline-block;
+    }
+ }

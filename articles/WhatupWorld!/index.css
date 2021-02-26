@@ -1,0 +1,75 @@
+html, body{
+	background-color: #1976d2;
+}
+::selection {
+	background-color: black;
+}
+::-moz-selection {
+	background-color: black;
+}
+.maindiv {
+	text-align: center;
+	background-color: #1976d2;
+	font-family: 'Orbitron', sans-serif;
+	opacity: 0;
+	color: white;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+.maindiv img {
+	/*-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;*/
+	width: 70px;
+	display: inline-block;
+	margin-top: 30px;
+}
+.paragraph {
+	text-align: left;
+}
+.paragraph p {
+	font-size: 18px;
+}
+.paragraph p a {
+	text-decoration: underline;
+	color: #383838;
+	font-size: 16px;
+}
+.paragraph p span {
+	text-transform: uppercase;
+}
+.links{
+	display: inline-block;
+	margin-top: 40px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.links div{
+	display: inline-block;
+	margin: 0 20px;
+}
+.links div a{
+	font-size: 30px;
+	color: white;
+}
+.links div a:hover, .links div a:active, .links div a:visited, .links div a:focus{
+	text-decoration: none;
+}
+@media screen and (max-width: 778px) {
+	.paragraph h2 {
+		font-size: 24px;
+	}
+	.paragraph p {
+		font-size: 15px;
+	}
+	.paragraph p a {
+		font-size: 14px;
+	}
+	.links div a {
+		font-size: 24px;
+	}
+}
