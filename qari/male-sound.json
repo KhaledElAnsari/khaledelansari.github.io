@@ -1,0 +1,15 @@
+{
+  "id": "nipponjo-male",
+  "label": { "en": "Male sound", "ar": "صوت رجالي" },
+  "speaker": 1,
+  "isDefault": true,
+  "model": { "url": "models/mixer128_dur.onnx", "version": "2024-09-20+durations" },
+  "vocoder": { "url": "models/vocos22.onnx", "version": "2024-09-21" },
+  "runtime": "mixer-tts",
+  "frontend": { "kind": "arabic-phonetiser" },
+  "sampleRate": 22050,
+  "timings": "native",
+  "durationOutput": "durations",
+  "defaultPace": 1,
+  "licence": { "type": "non-commercial" }
+}
